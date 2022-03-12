@@ -1,6 +1,18 @@
+# "db" is database, that contains internal representation of the project (most likely is is individual for each user)
 db/
+# "incremental_db" is database, that contains info about modifications, uses for quick recompile
 incremental_db/
+# "output_files" is scheme compile result (?)
 output_files/
+# "simulation" is functional or time simulation compile result (?)
 simulation/
+# "greybox_tmp" is generated IP file output (?)
 greybox_tmp/
+# ".qsys_edit" is user settings in xml (?)
 .qsys_edit/
+
+# comment info is based on:
+# https://electronix.ru/forum/index.php?app=forums&module=forums&controller=topic&id=134438
+# https://electronics.stackexchange.com/questions/540153/what-does-database-do-in-quartus
+# https://marsohod.org/forum/5-altera-quartus-ii/924-ispolzovanie-quartus
+# https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/hb/qts/qts_qii5v1.pdf
