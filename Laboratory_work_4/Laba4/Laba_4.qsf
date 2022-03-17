@@ -17,15 +17,15 @@
 # -------------------------------------------------------------------------- #
 #
 # Quartus II 64-Bit
-# Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-# Date created = 23:46:31  March 09, 2022
+# Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
+# Date created = 17:59:59  March 17, 2022
 #
 # -------------------------------------------------------------------------- #
 #
 # Notes:
 #
 # 1) The default values for assignments are stored in the file:
-#		Lab_4_assignment_defaults.qdf
+#		Laba_4_assignment_defaults.qdf
 #    If this file doesn't exist, see file:
 #		assignment_defaults.qdf
 #
@@ -38,27 +38,33 @@
 
 set_global_assignment -name FAMILY "Cyclone II"
 set_global_assignment -name DEVICE EP2C5Q208C8
-set_global_assignment -name TOP_LEVEL_ENTITY Lab_4
+set_global_assignment -name TOP_LEVEL_ENTITY Laba_4
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION "13.0 SP1"
-set_global_assignment -name PROJECT_CREATION_TIME_DATE "23:46:31  MARCH 09, 2022"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "17:59:59  MARCH 17, 2022"
 set_global_assignment -name LAST_QUARTUS_VERSION "13.0 SP1"
 set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
 set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
 set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
 set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
-set_global_assignment -name EDA_DESIGN_ENTRY_SYNTHESIS_TOOL "Design Compiler"
-set_global_assignment -name EDA_INPUT_VCC_NAME VDD -section_id eda_design_synthesis
-set_global_assignment -name EDA_LMF_FILE altsyn.lmf -section_id eda_design_synthesis
-set_global_assignment -name EDA_INPUT_DATA_FORMAT EDIF -section_id eda_design_synthesis
 set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (VHDL)"
-set_global_assignment -name EDA_RUN_TOOL_AUTOMATICALLY ON -section_id eda_simulation
 set_global_assignment -name EDA_OUTPUT_DATA_FORMAT VHDL -section_id eda_simulation
-set_global_assignment -name BDF_FILE Lab_4.bdf
+set_global_assignment -name VERILOG_FILE lpm_mux0.v
+set_global_assignment -name VERILOG_FILE lpm_counter0.v
+set_global_assignment -name VERILOG_FILE lpm_constant0.v
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
-set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform_Lab4.vwf
-set_global_assignment -name SIMULATION_MODE TIMING
-set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "D:/Temp/Quartus II/Lab_4/Waveform_Lab4.vwf"
-set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name BDF_FILE Laba_4.bdf
 set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "3.3-V LVTTL"
+set_location_assignment PIN_132 -to clk
+set_location_assignment PIN_30 -to clk_out
+set_location_assignment PIN_39 -to dff_in
+set_location_assignment PIN_35 -to dff_out
+set_location_assignment PIN_37 -to dlatch_in
+set_location_assignment PIN_40 -to dlatch_out
+set_location_assignment PIN_41 -to r_in
+set_location_assignment PIN_46 -to rs_out
+set_location_assignment PIN_33 -to jk_in
+set_location_assignment PIN_34 -to jk_out
+set_location_assignment PIN_43 -to s_in
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
