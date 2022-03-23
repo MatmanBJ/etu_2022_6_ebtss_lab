@@ -13,7 +13,7 @@
 --applicable agreement for further details.
 
 
-component lpm_mux_lab5
+component lpm_mux_l5_2
 	PORT
 	(
 		data0		: IN STD_LOGIC ;

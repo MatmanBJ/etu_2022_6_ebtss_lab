@@ -13,7 +13,7 @@
 --applicable agreement for further details.
 
 
-component lpm_constant_1
+component lpm_constant_0
 	PORT
 	(
 		result		: OUT STD_LOGIC_VECTOR (0 DOWNTO 0)

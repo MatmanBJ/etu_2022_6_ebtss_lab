@@ -4,7 +4,7 @@
 -- MODULE: LPM_CONSTANT 
 
 -- ============================================================
--- File Name: lpm_constant_1.vhd
+-- File Name: lpm_constant_0.vhd
 -- Megafunction Name(s):
 -- 			LPM_CONSTANT
 --
@@ -39,15 +39,15 @@ USE ieee.std_logic_1164.all;
 LIBRARY lpm;
 USE lpm.all;
 
-ENTITY lpm_constant_1 IS
+ENTITY lpm_constant_0 IS
 	PORT
 	(
 		result		: OUT STD_LOGIC_VECTOR (0 DOWNTO 0)
 	);
-END lpm_constant_1;
+END lpm_constant_0;
 
 
-ARCHITECTURE SYN OF lpm_constant_1 IS
+ARCHITECTURE SYN OF lpm_constant_0 IS
 
 	SIGNAL sub_wire0	: STD_LOGIC_VECTOR (0 DOWNTO 0);
 
@@ -86,7 +86,7 @@ END SYN;
 -- ============================================================
 -- CNX file retrieval info
 -- ============================================================
--- Retrieval info: PRIVATE: INTENDED_DEVICE_FAMILY STRING "Cyclone III"
+-- Retrieval info: PRIVATE: INTENDED_DEVICE_FAMILY STRING "Cyclone II"
 -- Retrieval info: PRIVATE: JTAG_ENABLED NUMERIC "0"
 -- Retrieval info: PRIVATE: JTAG_ID STRING "NONE"
 -- Retrieval info: PRIVATE: Radix NUMERIC "2"
@@ -101,9 +101,9 @@ END SYN;
 -- Retrieval info: CONSTANT: LPM_WIDTH NUMERIC "1"
 -- Retrieval info: USED_PORT: result 0 0 1 0 OUTPUT NODEFVAL "result[0..0]"
 -- Retrieval info: CONNECT: result 0 0 1 0 @result 0 0 1 0
--- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_constant_1.vhd TRUE
--- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_constant_1.inc FALSE
--- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_constant_1.cmp TRUE
--- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_constant_1.bsf TRUE
--- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_constant_1_inst.vhd FALSE
+-- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_constant_0.vhd TRUE
+-- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_constant_0.inc FALSE
+-- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_constant_0.cmp TRUE
+-- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_constant_0.bsf TRUE FALSE
+-- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_constant_0_inst.vhd FALSE
 -- Retrieval info: LIB_FILE: lpm

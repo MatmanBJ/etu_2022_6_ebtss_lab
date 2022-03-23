@@ -21,7 +21,7 @@ applicable agreement for further details.
 (header "symbol" (version "1.2"))
 (symbol
 	(rect 0 0 80 112)
-	(text "lpm_mux_lab5" (rect 0 0 99 16)(font "Arial" (font_size 10)))
+	(text "lpm_mux_l5_2" (rect 0 0 99 16)(font "Arial" (font_size 10)))
 	(text "inst" (rect 8 96 25 108)(font "Arial" ))
 	(port
 		(pt 0 40)
