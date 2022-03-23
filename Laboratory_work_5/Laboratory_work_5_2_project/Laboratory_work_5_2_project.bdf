@@ -34,6 +34,7 @@ applicable agreement for further details.
 		(line (pt 117 12)(pt 121 8))
 	)
 	(text "VCC" (rect 136 7 156 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect 8 128 56 144))
 )
 (pin
 	(input)
@@ -50,6 +51,7 @@ applicable agreement for further details.
 		(line (pt 117 12)(pt 121 8))
 	)
 	(text "VCC" (rect 136 7 156 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect 8 80 56 96))
 )
 (pin
 	(input)
@@ -66,6 +68,7 @@ applicable agreement for further details.
 		(line (pt 117 12)(pt 121 8))
 	)
 	(text "VCC" (rect 136 7 156 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect 8 104 56 120))
 )
 (pin
 	(input)
@@ -82,6 +85,7 @@ applicable agreement for further details.
 		(line (pt 117 12)(pt 121 8))
 	)
 	(text "VCC" (rect 136 7 156 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect 8 56 56 72))
 )
 (pin
 	(output)
@@ -98,66 +102,7 @@ applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-)
-(symbol
-	(rect 656 160 688 176)
-	(text "VCC" (rect 7 0 27 10)(font "Arial" (font_size 6)))
-	(text "inst9" (rect 3 5 26 17)(font "Arial" )(invisible))
-	(port
-		(pt 16 16)
-		(output)
-		(text "1" (rect 19 7 24 19)(font "Courier New" (bold))(invisible))
-		(text "1" (rect 19 7 24 19)(font "Courier New" (bold))(invisible))
-		(line (pt 16 16)(pt 16 8))
-	)
-	(drawing
-		(line (pt 8 8)(pt 24 8))
-	)
-)
-(symbol
-	(rect 656 312 688 328)
-	(text "VCC" (rect 7 0 27 10)(font "Arial" (font_size 6)))
-	(text "inst10" (rect 3 5 32 17)(font "Arial" )(invisible))
-	(port
-		(pt 16 16)
-		(output)
-		(text "1" (rect 19 7 24 19)(font "Courier New" (bold))(invisible))
-		(text "1" (rect 19 7 24 19)(font "Courier New" (bold))(invisible))
-		(line (pt 16 16)(pt 16 8))
-	)
-	(drawing
-		(line (pt 8 8)(pt 24 8))
-	)
-)
-(symbol
-	(rect 656 464 688 480)
-	(text "VCC" (rect 7 0 27 10)(font "Arial" (font_size 6)))
-	(text "inst11" (rect 3 5 32 17)(font "Arial" )(invisible))
-	(port
-		(pt 16 16)
-		(output)
-		(text "1" (rect 19 7 24 19)(font "Courier New" (bold))(invisible))
-		(text "1" (rect 19 7 24 19)(font "Courier New" (bold))(invisible))
-		(line (pt 16 16)(pt 16 8))
-	)
-	(drawing
-		(line (pt 8 8)(pt 24 8))
-	)
-)
-(symbol
-	(rect 656 616 688 632)
-	(text "VCC" (rect 7 0 27 10)(font "Arial" (font_size 6)))
-	(text "inst12" (rect 3 5 32 17)(font "Arial" )(invisible))
-	(port
-		(pt 16 16)
-		(output)
-		(text "1" (rect 19 7 24 19)(font "Courier New" (bold))(invisible))
-		(text "1" (rect 19 7 24 19)(font "Courier New" (bold))(invisible))
-		(line (pt 16 16)(pt 16 8))
-	)
-	(drawing
-		(line (pt 8 8)(pt 24 8))
-	)
+	(annotation_block (location)(rect 232 360 280 376))
 )
 (symbol
 	(rect 640 184 704 264)
@@ -899,10 +844,6 @@ applicable agreement for further details.
 	(pt 616 424)
 )
 (connector
-	(pt 672 336)
-	(pt 672 328)
-)
-(connector
 	(text "C" (rect 626 208 634 220)(font "Arial" ))
 	(pt 640 224)
 	(pt 616 224)
@@ -919,10 +860,6 @@ applicable agreement for further details.
 	(text "R" (rect 626 264 634 276)(font "Arial" ))
 	(pt 672 280)
 	(pt 616 280)
-)
-(connector
-	(pt 672 184)
-	(pt 672 176)
 )
 (connector
 	(text "C" (rect 618 512 626 524)(font "Arial" ))
@@ -943,10 +880,6 @@ applicable agreement for further details.
 	(pt 616 576)
 )
 (connector
-	(pt 672 488)
-	(pt 672 480)
-)
-(connector
 	(text "C" (rect 626 664 634 676)(font "Arial" ))
 	(pt 640 680)
 	(pt 616 680)
@@ -963,10 +896,6 @@ applicable agreement for further details.
 	(text "R" (rect 626 712 634 724)(font "Arial" ))
 	(pt 672 728)
 	(pt 616 728)
-)
-(connector
-	(pt 672 640)
-	(pt 672 632)
 )
 (connector
 	(pt 488 712)
