@@ -55,24 +55,28 @@ set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "3.3-V LVTTL"
-set_location_assignment PIN_23 -to C
-set_location_assignment PIN_12 -to D[0]
-set_location_assignment PIN_11 -to D[1]
-set_location_assignment PIN_13 -to D[2]
-set_location_assignment PIN_8 -to D[3]
-set_location_assignment PIN_33 -to Q[0]
-set_location_assignment PIN_15 -to Q[1]
-set_location_assignment PIN_14 -to Q[2]
-set_location_assignment PIN_208 -to Q[3]
-set_location_assignment PIN_24 -to Reset
-set_location_assignment PIN_6 -to S[0]
-set_location_assignment PIN_10 -to S[1]
+set_location_assignment PIN_132 -to C
+set_location_assignment PIN_40 -to D[0]
+set_location_assignment PIN_35 -to D[1]
+set_location_assignment PIN_39 -to D[2]
+set_location_assignment PIN_37 -to D[3]
+set_location_assignment PIN_46 -to Q[0]
+set_location_assignment PIN_30 -to Q[1]
+set_location_assignment PIN_44 -to Q[2]
+set_location_assignment PIN_31 -to Q[3]
+set_location_assignment PIN_160 -to Reset
+set_location_assignment PIN_61 -to S[0]
+set_location_assignment PIN_60 -to S[1]
 set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform_C0_R0.vwf
 set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform_C1_R0.vwf
 set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform_C0_R1.vwf
 set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform_C1_R1.vwf
 set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform_CT_R1.vwf
 set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform_CT_R0.vwf
-set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
 set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "C:/Users/MatmanBJ/Documents/Quartus II/Laboratory_work_5_2_project/Waveform_CT_R0.vwf"
 set_global_assignment -name SIMULATION_MODE FUNCTIONAL
+set_global_assignment -name USE_CONFIGURATION_DEVICE ON
+set_global_assignment -name STRATIX_CONFIGURATION_DEVICE EPCS1
+set_global_assignment -name RESERVE_ALL_UNUSED_PINS "AS INPUT TRI-STATED"
+set_global_assignment -name RESERVE_ALL_UNUSED_PINS_NO_OUTPUT_GND "AS INPUT TRI-STATED"
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
