@@ -70,7 +70,7 @@ set_location_assignment PIN_60 -to S1
 set_location_assignment PIN_61 -to S2
 set_location_assignment PIN_59 -to S3
 set_location_assignment PIN_132 -to C_UP
-set_location_assignment PIN_39 -to CLN_RESET
+set_location_assignment PIN_160 -to CLN_RESET
 set_location_assignment PIN_35 -to OE_L
 set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "F:/WD/Laboratory_work_5/Laboratory_work_5_1_project/Waveform_CT_CLNT_OE1.vwf"
 set_global_assignment -name SIMULATION_MODE FUNCTIONAL
