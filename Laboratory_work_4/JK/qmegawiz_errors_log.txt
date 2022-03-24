@@ -1,7 +1,0 @@
-
-
-C:/Users/Vik_S/Desktop/JK/lpm_mux.vhd
-
-Mar 23 10PM:32:12>: Variation file name (lpm_mux) is identical with the name of one of its sub-components.
-
-MegaWizard Plug-In Manager will rename the variation to "lpm_mua" to prevent compilation errors

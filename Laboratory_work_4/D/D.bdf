@@ -40,7 +40,7 @@ applicable agreement for further details.
 	(input)
 	(rect 944 528 1112 544)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "PRM" (rect 5 0 29 12)(font "Arial" ))
+	(text "PRM" (rect 5 0 28 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -547,10 +547,6 @@ applicable agreement for further details.
 )
 (connector
 	(pt 752 408)
-	(pt 752 440)
-)
-(connector
-	(pt 752 408)
 	(pt 800 408)
 )
 (connector
@@ -624,10 +620,6 @@ applicable agreement for further details.
 (connector
 	(pt 696 344)
 	(pt 696 360)
-)
-(connector
-	(pt 696 360)
-	(pt 696 440)
 )
 (connector
 	(pt 800 264)
@@ -719,14 +711,12 @@ applicable agreement for further details.
 (junction (pt 912 288))
 (junction (pt 992 480))
 (junction (pt 712 528))
-(junction (pt 752 408))
 (junction (pt 752 392))
 (junction (pt 752 376))
 (junction (pt 696 344))
 (junction (pt 696 200))
 (junction (pt 696 184))
 (junction (pt 1128 360))
-(junction (pt 696 360))
 (junction (pt 696 264))
 (junction (pt 752 328))
 (junction (pt 752 312))

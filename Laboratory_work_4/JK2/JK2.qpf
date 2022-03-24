@@ -17,14 +17,14 @@
 # -------------------------------------------------------------------------- #
 #
 # Quartus II 64-Bit
-# Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
-# Date created = 17:59:59  March 17, 2022
+# Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+# Date created = 18:23:22  March 24, 2022
 #
 # -------------------------------------------------------------------------- #
 
 QUARTUS_VERSION = "13.0"
-DATE = "17:59:59  March 17, 2022"
+DATE = "18:23:22  March 24, 2022"
 
 # Revisions
 
-PROJECT_REVISION = "Laba_4"
+PROJECT_REVISION = "JK2"
