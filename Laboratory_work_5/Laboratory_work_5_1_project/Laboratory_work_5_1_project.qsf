@@ -57,22 +57,25 @@ set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform_CT_CLN1_OET.vwf
 set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform_C1_CLN1_OE1.vwf
 set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform_C0_CLN1_OE1.vwf
 set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "3.3-V LVTTL"
-set_location_assignment PIN_45 -to Q0
-set_location_assignment PIN_46 -to Q1
-set_location_assignment PIN_44 -to Q2
-set_location_assignment PIN_48 -to Q3
-set_location_assignment PIN_40 -to R0
-set_location_assignment PIN_39 -to R1
-set_location_assignment PIN_34 -to R2
-set_location_assignment PIN_28 -to R3
-set_location_assignment PIN_43 -to S0
-set_location_assignment PIN_41 -to S1
-set_location_assignment PIN_37 -to S2
-set_location_assignment PIN_27 -to S3
-set_location_assignment PIN_23 -to C_UP
-set_location_assignment PIN_24 -to CLN_RESET
-set_location_assignment PIN_47 -to OE_L
-set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_location_assignment PIN_40 -to Q0
+set_location_assignment PIN_34 -to Q1
+set_location_assignment PIN_41 -to Q2
+set_location_assignment PIN_33 -to Q3
+set_location_assignment PIN_43 -to R0
+set_location_assignment PIN_31 -to R1
+set_location_assignment PIN_44 -to R2
+set_location_assignment PIN_30 -to R3
+set_location_assignment PIN_46 -to S0
+set_location_assignment PIN_60 -to S1
+set_location_assignment PIN_61 -to S2
+set_location_assignment PIN_59 -to S3
+set_location_assignment PIN_37 -to C_UP
+set_location_assignment PIN_39 -to CLN_RESET
+set_location_assignment PIN_35 -to OE_L
 set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "F:/WD/Laboratory_work_5/Laboratory_work_5_1_project/Waveform_CT_CLNT_OE1.vwf"
 set_global_assignment -name SIMULATION_MODE FUNCTIONAL
 set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST ON -section_id eda_simulation
+set_global_assignment -name USE_CONFIGURATION_DEVICE ON
+set_global_assignment -name STRATIX_CONFIGURATION_DEVICE EPCS1
+set_global_assignment -name RESERVE_ALL_UNUSED_PINS "AS INPUT TRI-STATED"
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
