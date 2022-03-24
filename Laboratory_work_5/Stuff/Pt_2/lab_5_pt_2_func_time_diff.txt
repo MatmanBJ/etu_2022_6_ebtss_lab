@@ -1,0 +1,5 @@
+Functional simulation -- 1st (high picture)
+Time simulation -- 2nd (low picture)
+
+Functional simulation HASN'T "XXX" in diagrams
+Time simulation HAS "XXX" in diagrams
