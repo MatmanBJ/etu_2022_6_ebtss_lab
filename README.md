@@ -56,19 +56,19 @@
 
 ## Определяем место (в данном случае -- справа сверху)
 
-![Инструкция, как вставить название контакта 1](./Laboratory_work_5/Other/how_to_add_contact_name_1.png)
+![Инструкция, как вставить название контакта 1](./Laboratory_work_5/Other/how_to_add_contact_name/how_to_add_contact_name_1.png)
 
 ## Выделяем проводку и кликаем правой кнопокой мыши, чтобы открыть настройки, и выбираем `Properties`
 
-![Инструкция, как вставить название контакта 2](./Laboratory_work_5/Other/how_to_add_contact_name_2.png)
+![Инструкция, как вставить название контакта 2](./Laboratory_work_5/Other/how_to_add_contact_name/how_to_add_contact_name_2.png)
 
 ## Называем контакт, затем нажимаем `ОК` и закрываем
 
-![Инструкция, как вставить название контакта 3](./Laboratory_work_5/Other/how_to_add_contact_name_3.png)
+![Инструкция, как вставить название контакта 3](./Laboratory_work_5/Other/how_to_add_contact_name/how_to_add_contact_name_3.png)
 
 ## Готово
 
-![Инструкция, как вставить название контакта 4](./Laboratory_work_5/Other/how_to_add_contact_name_4.png)
+![Инструкция, как вставить название контакта 4](./Laboratory_work_5/Other/how_to_add_contact_name/how_to_add_contact_name_4.png)
 
 # Лицензия
 

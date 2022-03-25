@@ -1,0 +1,21 @@
+Про обозначения на триггере (относительно понятно): https://elprivod.nmu.org.ua/ua/student/disciplines/stpvem/%D0%9F%D1%80%D0%B8%D0%BC%D0%B8%D1%82%D0%B8%D0%B2%D1%8B%20%D1%82%D1%80%D0%B8%D0%B3%D0%B3%D0%B5%D1%80%D0%BE%D0%B2%202.pdf
+
+Про обозначения на триггере (относительно понятно), другая ссылка: https://elprivod.nmu.org.ua/ua/student/disciplines/stpvem/Примитивы%20триггеров%202.pdf
+
+Про синхронный RS-триггер: https://studfile.net/preview/7722248/page:8/
+
+Что-то про триггеры в курсе на языке hdl, в pdf: http://iosifk.narod.ru/hdl_coding/hdl_coding_11_kit_1_09.pdf
+
+Что-то про триггеры в курсе на языке hdl, в pdf, другая ссылка: https://kit-e.ru/wp-content/uploads/2009_1_96.pdf
+
+Что-то про триггеры в курсе на языке hdl, другая ссылка: https://kit-e.ru/circuit/kratkij-kurs-hdl-chast-10/
+
+Немного понятнее про асинхронный сброс: https://russianblogs.com/article/78291666418/
+
+Ещё понятнее про асинхронный сброс: https://radiokot.ru/start/mcu_fpga/altera/05/
+
+Очень понятно про асинхронный/синхронный сброс или установку: https://mk.cs.msu.ru/images/4/4a/Hdl_lecture_08.pdf
+
+Другие ссылки:
+
+https://www.omgtu.ru/general_information/faculties/radio_engineering_department/department_quot_radio_devices_and_diagnostic_systems_quot/educational-materials/Digital_devices_and_microprocessors/(Album_charts)_Digital_devices_and_microprocessors.pdf
