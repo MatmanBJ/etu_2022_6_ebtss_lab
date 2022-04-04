@@ -23,7 +23,7 @@ applicable agreement for further details.
 	(input)
 	(rect 32 400 200 416)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "C" (rect 5 0 14 12)(font "Arial" ))
+	(text "C" (rect 5 0 13 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -39,7 +39,7 @@ applicable agreement for further details.
 	(input)
 	(rect 32 448 200 464)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "R_prn[7..0]" (rect 5 0 61 12)(font "Arial" ))
+	(text "R_prn[7..0]" (rect 5 0 60 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -55,7 +55,7 @@ applicable agreement for further details.
 	(input)
 	(rect 32 496 200 512)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "R_clrn[7..0]" (rect 5 0 63 12)(font "Arial" ))
+	(text "R_clrn[7..0]" (rect 5 0 62 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -71,7 +71,7 @@ applicable agreement for further details.
 	(input)
 	(rect 32 544 200 560)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "W_en" (rect 5 0 34 12)(font "Arial" ))
+	(text "W_en" (rect 5 0 33 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -1840,9 +1840,9 @@ applicable agreement for further details.
 (text "W_in -- W_en&Q[7] after AND operand," (rect 1008 632 1232 646)(font "Arial" (font_size 8)))
 (text "temporary item" (rect 1008 648 1091 662)(font "Arial" (font_size 8)))
 (text "Q[8] -- check error sygnal (if all 1 -> make 0)" (rect 1008 568 1260 582)(font "Arial" (font_size 8)))
-(text "Lab_6 pt_1 var_5" (rect 768 472 868 486)(font "Arial" (font_size 8)))
 (text "NAND8 work principe:" (rect 768 488 894 502)(font "Arial" (font_size 8)))
 (text "if it has at least one \"0\"," (rect 768 504 902 518)(font "Arial" (font_size 8)))
 (text "it will be \"0\", but invered to \"1\"," (rect 768 520 942 534)(font "Arial" (font_size 8)))
 (text "so it checks ALL errors:" (rect 768 536 906 550)(font "Arial" (font_size 8)))
 (text "from all \"0\"'s to all \"1\"'s" (rect 768 552 897 566)(font "Arial" (font_size 8)))
+(text "Lab_6 pt_1 var_5 (8 outs, 0 circ)" (rect 768 472 955 486)(font "Arial" (font_size 8)))
