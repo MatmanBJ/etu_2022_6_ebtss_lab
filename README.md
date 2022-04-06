@@ -70,6 +70,42 @@
 
 ![Инструкция, как вставить название контакта 4](./Laboratory_work_5/Other/how_to_add_contact_name/how_to_add_contact_name_4.png)
 
+# Что делать, если файл не компилируется и выдаёт такую ошибку?
+
+![Инструкция, как изменить главный в проекте файл 1](./Laboratory_work_6/Other/change_main_file_instr/lab_6_change_main_file_01.png)
+
+Ошибка при компиляции `Full Compilation was NOT successful...`.
+Обратите внимание, что согласно ошибке пункт `Top-level Entity name` не определён.
+Это значит, скорее всего, что такого файла нет, поэтому нужно сделать так, чтобы он стал **главным** в этом проекте.
+
+Во-первых, определим, какой файл нам нужен.
+
+![Инструкция, как изменить главный в проекте файл 2](./Laboratory_work_6/Other/change_main_file_instr/lab_6_change_main_file_02.png)
+
+Во-вторых, заходим во вкладку **Hierarchy** и выбираем сущность проекта, как показано на картинке.
+
+![Инструкция, как изменить главный в проекте файл 3](./Laboratory_work_6/Other/change_main_file_instr/lab_6_change_main_file_03.png)
+
+В-третьих, нажимаем на него правой кнопокой и выбираем пункт **Settings...**.
+
+![Инструкция, как изменить главный в проекте файл 4](./Laboratory_work_6/Other/change_main_file_instr/lab_6_change_main_file_04.png)
+
+В-четвёртых, прописываем в поле **Top-level entity** имя нашего файла без расширения (обычно это `*.bdf` файл) и...
+
+![Инструкция, как изменить главный в проекте файл 5](./Laboratory_work_6/Other/change_main_file_instr/lab_6_change_main_file_05.png)
+
+...нажимаем **OK**.
+
+![Инструкция, как изменить главный в проекте файл 6](./Laboratory_work_6/Other/change_main_file_instr/lab_6_change_main_file_06.png)
+
+Пока что изменения не отразились. Далее просто компилируем проект...
+
+![Инструкция, как изменить главный в проекте файл 7](./Laboratory_work_6/Other/change_main_file_instr/lab_6_change_main_file_07.png)
+
+...и компиляция проходит успешно (если у вас нет иных ошибок и проблем)!
+
+![Инструкция, как изменить главный в проекте файл 8](./Laboratory_work_6/Other/change_main_file_instr/lab_6_change_main_file_08.png)
+
 # Лицензия
 
 Этот проект находится под лицензией MIT. Дополнительная информация в файле `license.txt`.
