@@ -1,3 +1,9 @@
+# macOS system files for custom folder attributes
+._.DS_Store
+.DS_Store
+# macOS system file for custom file attributes
+._*
+
 # "db" is database, that contains internal representation of the project (most likely is is individual for each user)
 db/
 # "incremental_db" is database, that contains info about modifications, uses for quick recompile
