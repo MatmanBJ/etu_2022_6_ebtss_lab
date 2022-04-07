@@ -1,0 +1,107 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 64-Bit
+# Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+# Date created = 00:58:21  April 05, 2022
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		Laboratory_work_6_2_project_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone II"
+set_global_assignment -name DEVICE EP2C5Q208C8
+set_global_assignment -name TOP_LEVEL_ENTITY Laboratory_work_6_2_circOUR_project
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "00:58:20  APRIL 05, 2022"
+set_global_assignment -name LAST_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (VHDL)"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT VHDL -section_id eda_simulation
+set_global_assignment -name BDF_FILE Laboratory_work_6_2_circOUR_project.bdf
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform_l6p2_circ0_noerr.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform_l6p2_circ0_err_1_all1.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform_l6p2_circ0_err_2_all0.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform_l6p2_circ0_err_3_noise1.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform_l6p2_circ0_err_4_noise2.vwf
+set_global_assignment -name USE_CONFIGURATION_DEVICE ON
+set_global_assignment -name STRATIX_CONFIGURATION_DEVICE EPCS1
+set_global_assignment -name RESERVE_ALL_UNUSED_PINS "AS INPUT TRI-STATED"
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "3.3-V LVTTL"
+set_location_assignment PIN_132 -to C
+set_location_assignment PIN_37 -to Q[8]
+set_location_assignment PIN_39 -to Q[7]
+set_location_assignment PIN_35 -to Q[6]
+set_location_assignment PIN_40 -to Q[5]
+set_location_assignment PIN_34 -to Q[4]
+set_location_assignment PIN_41 -to Q[3]
+set_location_assignment PIN_33 -to Q[2]
+set_location_assignment PIN_43 -to Q[1]
+set_location_assignment PIN_31 -to Q[0]
+set_location_assignment PIN_60 -to Q_out[8]
+set_location_assignment PIN_61 -to Q_out[7]
+set_location_assignment PIN_59 -to Q_out[6]
+set_location_assignment PIN_63 -to Q_out[5]
+set_location_assignment PIN_58 -to Q_out[4]
+set_location_assignment PIN_64 -to Q_out[3]
+set_location_assignment PIN_57 -to Q_out[2]
+set_location_assignment PIN_67 -to Q_out[1]
+set_location_assignment PIN_56 -to Q_out[0]
+set_location_assignment PIN_13 -to R_clrn[7]
+set_location_assignment PIN_75 -to R_clrn[6]
+set_location_assignment PIN_68 -to R_clrn[5]
+set_location_assignment PIN_198 -to R_clrn[4]
+set_location_assignment PIN_74 -to R_clrn[3]
+set_location_assignment PIN_76 -to R_clrn[2]
+set_location_assignment PIN_46 -to R_clrn[1]
+set_location_assignment PIN_84 -to R_clrn[0]
+set_location_assignment PIN_47 -to R_prn[7]
+set_location_assignment PIN_70 -to R_prn[6]
+set_location_assignment PIN_72 -to R_prn[3]
+set_location_assignment PIN_77 -to R_prn[2]
+set_location_assignment PIN_15 -to R_prn[0]
+set_location_assignment PIN_90 -to W_en
+set_location_assignment PIN_81 -to R_prn[5]
+set_location_assignment PIN_80 -to R_prn[4]
+set_location_assignment PIN_48 -to R_prn[1]
+set_global_assignment -name RESERVE_ALL_UNUSED_PINS_NO_OUTPUT_GND "AS INPUT TRI-STATED"
+set_global_assignment -name QIP_FILE output_files/lpm_counter0.qip
+set_location_assignment PIN_69 -to q_c[7]
+set_global_assignment -name QIP_FILE output_files/lpm_constant0.qip
+set_global_assignment -name QIP_FILE output_files/lpm_constant1.qip
+set_location_assignment PIN_160 -to set
+set_location_assignment PIN_151 -to bip[7]
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
