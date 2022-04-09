@@ -106,6 +106,54 @@
 
 ![Инструкция, как изменить главный в проекте файл 8](./Laboratory_work_6/Other/change_main_file_instr/lab_6_change_main_file_08.png)
 
+# Последовательность изменения настроек в проекте, необходимая для загрузки на плату
+
+В методических указаниях в директории `Guideline` есть указание, как это сделать, однако это сделано не в самом удобном виде.
+Здесь я приведу скриншоты, иллюстрирующие, как изменить настройки для корректной загрузки.
+
+Во-первых, нужно зайти из главного меню *либо* во вкладку **Device**, а затем в **Device and pin options...**,
+*либо* во вкладку **Settings**, затем во вкладку **Device...**, и потом в **Device and pin options**.
+
+1 -- либо **Device** --> **Device and pin options**
+
+![Инструкция, как изменить настройки для загрузки на плату 1](./Laboratory_work_6/Other/change_settings_for_loading_instr/lab_6_change_settings_for_loading_01.png)
+
+![Инструкция, как изменить настройки для загрузки на плату 2](./Laboratory_work_6/Other/change_settings_for_loading_instr/lab_6_change_settings_for_loading_02.png)
+
+2 -- либо **Settings** --> **Device...** --> **Device and pin options**
+
+![Инструкция, как изменить настройки для загрузки на плату 3](./Laboratory_work_6/Other/change_settings_for_loading_instr/lab_6_change_settings_for_loading_03.png)
+
+![Инструкция, как изменить настройки для загрузки на плату 4](./Laboratory_work_6/Other/change_settings_for_loading_instr/lab_6_change_settings_for_loading_04.png)
+
+![Инструкция, как изменить настройки для загрузки на плату 5](./Laboratory_work_6/Other/change_settings_for_loading_instr/lab_6_change_settings_for_loading_05.png)
+
+В разделе `Configuraion` в секции `Use configuration device:` ставим `EPCS1`.
+
+![Инструкция, как изменить настройки для загрузки на плату 6](./Laboratory_work_6/Other/change_settings_for_loading_instr/lab_6_change_settings_for_loading_06.png)
+
+![Инструкция, как изменить настройки для загрузки на плату 7](./Laboratory_work_6/Other/change_settings_for_loading_instr/lab_6_change_settings_for_loading_07.png)
+
+![Инструкция, как изменить настройки для загрузки на плату 8](./Laboratory_work_6/Other/change_settings_for_loading_instr/lab_6_change_settings_for_loading_08.png)
+
+В разделе `Unused Pins` в секции `Reserve all unused pins:` ставим `As input tri-stated`.
+
+![Инструкция, как изменить настройки для загрузки на плату 9](./Laboratory_work_6/Other/change_settings_for_loading_instr/lab_6_change_settings_for_loading_09.png)
+
+![Инструкция, как изменить настройки для загрузки на плату 10](./Laboratory_work_6/Other/change_settings_for_loading_instr/lab_6_change_settings_for_loading_10.png)
+
+![Инструкция, как изменить настройки для загрузки на плату 11](./Laboratory_work_6/Other/change_settings_for_loading_instr/lab_6_change_settings_for_loading_11.png)
+
+Нажимаем `ОК` и выходим. Готово.
+
+# Краткие сведения о плате
+
+![Инструкция, как изменить настройки для загрузки на плату 1](./Laboratory_work_5/Other/plate_usage/lab_5_plate_usage_1.jpg)
+
+![Инструкция, как изменить настройки для загрузки на плату 2](./Laboratory_work_5/Other/plate_usage/lab_5_plate_usage_2.jpg)
+
+![Инструкция, как изменить настройки для загрузки на плату 3](./Laboratory_work_5/Other/plate_usage/lab_5_plate_usage_3.jpg)
+
 # Лицензия
 
 Этот проект находится под лицензией MIT. Дополнительная информация в файле `license.txt`.
