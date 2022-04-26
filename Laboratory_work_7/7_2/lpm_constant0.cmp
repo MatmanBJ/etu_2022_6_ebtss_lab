@@ -13,10 +13,9 @@
 --applicable agreement for further details.
 
 
-component lpm_counterDIV
+component lpm_constant0
 	PORT
 	(
-		clock		: IN STD_LOGIC ;
-		q		: OUT STD_LOGIC_VECTOR (7 DOWNTO 0)
+		result		: OUT STD_LOGIC_VECTOR (3 DOWNTO 0)
 	);
 end component;
