@@ -308,6 +308,22 @@ applicable agreement for further details.
 	)
 	(annotation_block (location)(rect 1152 600 1208 616))
 )
+(pin
+	(output)
+	(rect 856 320 1032 336)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "q[3..0]" (rect 90 0 121 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
 (symbol
 	(rect 624 320 768 432)
 	(text "lpm_counter0" (rect 14 0 106 16)(font "Arial" (font_size 10)))
@@ -436,7 +452,7 @@ applicable agreement for further details.
 		(pt 64 24)
 		(output)
 		(text "OUT" (rect 48 15 65 27)(font "Courier New" (bold))(invisible))
-		(text "OUT" (rect 48 15 62 27)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 48 15 65 27)(font "Courier New" (bold))(invisible))
 		(line (pt 42 24)(pt 64 24))
 	)
 	(drawing
@@ -475,7 +491,7 @@ applicable agreement for further details.
 		(pt 64 24)
 		(output)
 		(text "OUT" (rect 48 15 65 27)(font "Courier New" (bold))(invisible))
-		(text "OUT" (rect 48 15 62 27)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 48 15 65 27)(font "Courier New" (bold))(invisible))
 		(line (pt 43 24)(pt 64 24))
 	)
 	(drawing
@@ -507,7 +523,7 @@ applicable agreement for further details.
 		(pt 64 24)
 		(output)
 		(text "OUT" (rect 48 15 65 27)(font "Courier New" (bold))(invisible))
-		(text "OUT" (rect 48 15 62 27)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 48 15 65 27)(font "Courier New" (bold))(invisible))
 		(line (pt 54 24)(pt 64 24))
 	)
 	(drawing
@@ -534,7 +550,7 @@ applicable agreement for further details.
 		(pt 48 16)
 		(output)
 		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
-		(text "OUT" (rect 32 7 46 19)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
 		(line (pt 39 16)(pt 48 16))
 	)
 	(drawing
@@ -912,9 +928,24 @@ applicable agreement for further details.
 	(pt 640 200)
 )
 (connector
-	(text "q[3..0]" (rect 818 368 849 380)(font "Arial" ))
+	(pt 808 384)
+	(pt 808 328)
+	(bus)
+)
+(connector
 	(pt 768 384)
+	(pt 808 384)
+	(bus)
+)
+(connector
+	(text "q[3..0]" (rect 818 368 849 380)(font "Arial" ))
+	(pt 808 384)
 	(pt 848 384)
+	(bus)
+)
+(connector
+	(pt 856 328)
+	(pt 808 328)
 	(bus)
 )
 (junction (pt 336 136))
@@ -922,3 +953,4 @@ applicable agreement for further details.
 (junction (pt 304 192))
 (junction (pt 528 264))
 (junction (pt 616 200))
+(junction (pt 808 384))

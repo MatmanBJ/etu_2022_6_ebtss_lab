@@ -1,4 +1,3 @@
-/* Simulator = Quartus II Simulator */
 /*
 WARNING: Do NOT edit the input and output ports in this file in a text
 editor if you plan to continue editing the block that represents it in
@@ -83,23 +82,13 @@ SIGNAL("q[0]")
 	PARENT = "q";
 }
 
-SIGNAL("pin_name2")
+SIGNAL("C")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("pin_name1")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = OUTPUT;
 	PARENT = "";
 }
 
@@ -139,32 +128,23 @@ TRANSITION_LIST("q[0]")
 	}
 }
 
-TRANSITION_LIST("pin_name2")
+TRANSITION_LIST("C")
 {
 	NODE
 	{
 		REPEAT = 1;
 		NODE
 		{
-			REPEAT = 100;
-			LEVEL 0 FOR 5.0;
-			LEVEL 1 FOR 5.0;
+			REPEAT = 50;
+			LEVEL 0 FOR 10.0;
+			LEVEL 1 FOR 10.0;
 		}
-	}
-}
-
-TRANSITION_LIST("pin_name1")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL X FOR 1000.0;
 	}
 }
 
 DISPLAY_LINE
 {
-	CHANNEL = "pin_name2";
+	CHANNEL = "C";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 0;
@@ -174,8 +154,8 @@ DISPLAY_LINE
 DISPLAY_LINE
 {
 	CHANNEL = "q";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = ASCII;
+	EXPAND_STATUS = EXPANDED;
+	RADIX = Binary;
 	TREE_INDEX = 1;
 	TREE_LEVEL = 0;
 	CHILDREN = 2, 3, 4, 5;
@@ -185,7 +165,7 @@ DISPLAY_LINE
 {
 	CHANNEL = "q[3]";
 	EXPAND_STATUS = COLLAPSED;
-	RADIX = ASCII;
+	RADIX = Binary;
 	TREE_INDEX = 2;
 	TREE_LEVEL = 1;
 	PARENT = 1;
@@ -195,7 +175,7 @@ DISPLAY_LINE
 {
 	CHANNEL = "q[2]";
 	EXPAND_STATUS = COLLAPSED;
-	RADIX = ASCII;
+	RADIX = Binary;
 	TREE_INDEX = 3;
 	TREE_LEVEL = 1;
 	PARENT = 1;
@@ -205,7 +185,7 @@ DISPLAY_LINE
 {
 	CHANNEL = "q[1]";
 	EXPAND_STATUS = COLLAPSED;
-	RADIX = ASCII;
+	RADIX = Binary;
 	TREE_INDEX = 4;
 	TREE_LEVEL = 1;
 	PARENT = 1;
@@ -215,19 +195,10 @@ DISPLAY_LINE
 {
 	CHANNEL = "q[0]";
 	EXPAND_STATUS = COLLAPSED;
-	RADIX = ASCII;
+	RADIX = Binary;
 	TREE_INDEX = 5;
 	TREE_LEVEL = 1;
 	PARENT = 1;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "pin_name1";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 6;
-	TREE_LEVEL = 0;
 }
 
 TIME_BAR

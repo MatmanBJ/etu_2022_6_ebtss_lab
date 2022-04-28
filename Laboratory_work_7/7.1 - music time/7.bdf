@@ -308,6 +308,22 @@ applicable agreement for further details.
 	)
 	(annotation_block (location)(rect 784 256 840 272))
 )
+(pin
+	(output)
+	(rect 88 432 264 448)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "q[3..0]" (rect 90 0 121 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
 (symbol
 	(rect -160 288 -16 400)
 	(text "lpm_counter1" (rect 14 0 106 16)(font "Arial" (font_size 10)))
@@ -1428,11 +1444,6 @@ applicable agreement for further details.
 	(pt -168 320)
 )
 (connector
-	(pt 40 352)
-	(pt 40 512)
-	(bus)
-)
-(connector
 	(pt 40 512)
 	(pt 72 512)
 	(bus)
@@ -1821,6 +1832,21 @@ applicable agreement for further details.
 	(pt -312 336)
 	(bus)
 )
+(connector
+	(pt 88 440)
+	(pt 40 440)
+	(bus)
+)
+(connector
+	(pt 40 352)
+	(pt 40 440)
+	(bus)
+)
+(connector
+	(pt 40 440)
+	(pt 40 512)
+	(bus)
+)
 (junction (pt 40 352))
 (junction (pt 304 360))
 (junction (pt 640 424))
@@ -1832,3 +1858,4 @@ applicable agreement for further details.
 (junction (pt 1248 408))
 (junction (pt 1248 472))
 (junction (pt 1088 424))
+(junction (pt 40 440))
