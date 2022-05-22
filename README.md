@@ -106,6 +106,18 @@
 
 ![Инструкция, как изменить главный в проекте файл 8](./Laboratory_work_6/Other/change_main_file_instr/lab_6_change_main_file_08.png)
 
+# Как создать bsf-файл (файл, чтобы вставить какую-то схему в другую)?
+
+![Инструкция, как создать bsf-файл 1](./Course_work/Other/create_bsf_instr/cw_create_bsf_01.png)
+
+![Инструкция, как создать bsf-файл 2](./Course_work/Other/create_bsf_instr/cw_create_bsf_02.png)
+
+![Инструкция, как создать bsf-файл 3](./Course_work/Other/create_bsf_instr/cw_create_bsf_03.png)
+
+![Инструкция, как создать bsf-файл 4](./Course_work/Other/create_bsf_instr/cw_create_bsf_04.png)
+
+![Инструкция, как создать bsf-файл 5](./Course_work/Other/create_bsf_instr/cw_create_bsf_05.png)
+
 # Последовательность изменения настроек в проекте, необходимая для загрузки на плату
 
 В методических указаниях в директории `Guideline` есть указание, как это сделать, однако это сделано не в самом удобном виде.
