@@ -55,3 +55,11 @@ set_global_assignment -name BDF_FILE tact_consume_scheme.bdf
 set_global_assignment -name QIP_FILE lpm_counter_1.qip
 set_global_assignment -name QIP_FILE lpm_decode_1.qip
 set_global_assignment -name BDF_FILE make_ready_scheme.bdf
+set_global_assignment -name BSF_FILE make_ready_scheme.bsf
+set_global_assignment -name BSF_FILE parity_bit_make.bsf
+set_global_assignment -name BSF_FILE tact_consume_scheme.bsf
+set_global_assignment -name QIP_FILE lpm_constant_0.qip
+set_global_assignment -name QIP_FILE lpm_shiftreg_1.qip
+set_global_assignment -name QIP_FILE lpm_shiftreg_2.qip
+set_global_assignment -name QIP_FILE lpm_shiftreg_3.qip
+set_global_assignment -name BDF_FILE parallel_into_serial_converter.bdf
