@@ -18,14 +18,14 @@
 #
 # Quartus II 64-Bit
 # Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-# Date created = 23:21:25  May 23, 2022
+# Date created = 00:30:06  May 24, 2022
 #
 # -------------------------------------------------------------------------- #
 #
 # Notes:
 #
 # 1) The default values for assignments are stored in the file:
-#		parallel_into_serial_converter_reg_assignment_defaults.qdf
+#		parallel_into_serial_converter_mux_assignment_defaults.qdf
 #    If this file doesn't exist, see file:
 #		assignment_defaults.qdf
 #
@@ -38,9 +38,9 @@
 
 set_global_assignment -name FAMILY "Cyclone II"
 set_global_assignment -name DEVICE EP2C5Q208C8
-set_global_assignment -name TOP_LEVEL_ENTITY parallel_into_serial_converter_reg
+set_global_assignment -name TOP_LEVEL_ENTITY parallel_into_serial_converter_mux
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION "13.0 SP1"
-set_global_assignment -name PROJECT_CREATION_TIME_DATE "23:21:24  MAY 23, 2022"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "00:30:06  MAY 24, 2022"
 set_global_assignment -name LAST_QUARTUS_VERSION "13.0 SP1"
 set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
 set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
@@ -84,12 +84,12 @@ set_global_assignment -name BSF_FILE lpm_shiftreg_3.bsf
 set_global_assignment -name SOURCE_FILE lpm_shiftreg_3.cmp
 set_global_assignment -name QIP_FILE lpm_shiftreg_3.qip
 set_global_assignment -name VHDL_FILE lpm_shiftreg_3.vhd
-set_global_assignment -name BDF_FILE make_ready_scheme_reg.bdf
-set_global_assignment -name BSF_FILE make_ready_scheme_reg.bsf
+set_global_assignment -name BDF_FILE make_ready_scheme_mux.bdf
+set_global_assignment -name BSF_FILE make_ready_scheme_mux.bsf
 set_global_assignment -name SOURCE_FILE parallel_into_serial_converter.qws
-set_global_assignment -name BDF_FILE parallel_into_serial_converter_reg.bdf
-set_global_assignment -name SOURCE_FILE parallel_into_serial_converter_reg.qpf
-set_global_assignment -name SOURCE_FILE parallel_into_serial_converter_reg.qsf
+set_global_assignment -name BDF_FILE parallel_into_serial_converter_mux.bdf
+set_global_assignment -name SOURCE_FILE parallel_into_serial_converter_mux.qpf
+set_global_assignment -name SOURCE_FILE parallel_into_serial_converter_mux.qsf
 set_global_assignment -name BDF_FILE parity_bit_make.bdf
 set_global_assignment -name BSF_FILE parity_bit_make.bsf
 set_global_assignment -name BDF_FILE tact_consume_scheme.bdf

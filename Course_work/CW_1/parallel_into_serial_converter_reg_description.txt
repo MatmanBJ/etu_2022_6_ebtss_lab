@@ -1,2 +1,0 @@
-Created on:iiiaaaeuiee, Iae 23, 2022
-Based on:parallel_into_serial_converter
