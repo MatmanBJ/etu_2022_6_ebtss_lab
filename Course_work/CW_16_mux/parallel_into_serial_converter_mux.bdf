@@ -101,9 +101,9 @@ applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect 120 488 288 504)
+	(rect 120 296 288 312)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "yield" (rect 5 0 28 12)(font "Arial" ))
+	(text "x[15..0]" (rect 5 0 42 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -117,9 +117,9 @@ applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect 120 296 288 312)
+	(rect 120 488 288 504)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "x[15..0]" (rect 5 0 42 12)(font "Arial" ))
+	(text "speed" (rect 5 0 34 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -165,9 +165,9 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 120 264 296 280)
+	(rect 120 168 296 184)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "message_out" (rect 90 0 156 12)(font "Arial" ))
+	(text "data[18..0]" (rect 90 0 143 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -181,9 +181,9 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 120 168 296 184)
+	(rect 120 264 296 280)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "data[18..0]" (rect 90 0 143 12)(font "Arial" ))
+	(text "serial_code" (rect 90 0 145 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -859,21 +859,6 @@ applicable agreement for further details.
 	)
 )
 (connector
-	(text "yield" (rect 970 448 993 460)(font "Arial" ))
-	(pt 1040 464)
-	(pt 960 464)
-)
-(connector
-	(text "yield" (rect 970 512 993 524)(font "Arial" ))
-	(pt 1040 528)
-	(pt 960 528)
-)
-(connector
-	(text "nc" (rect 970 496 981 508)(font "Arial" ))
-	(pt 1040 512)
-	(pt 960 512)
-)
-(connector
 	(pt 1120 560)
 	(pt 1120 576)
 )
@@ -895,11 +880,6 @@ applicable agreement for further details.
 	(text "load" (rect 930 608 950 620)(font "Arial" ))
 	(pt 1040 624)
 	(pt 920 624)
-)
-(connector
-	(text "nc" (rect 930 656 941 668)(font "Arial" ))
-	(pt 1040 672)
-	(pt 920 672)
 )
 (connector
 	(text "d_s[2..0]" (rect 1194 464 1237 476)(font "Arial" ))
@@ -940,11 +920,6 @@ applicable agreement for further details.
 	(pt 1120 576)
 )
 (connector
-	(text "message_out" (rect 1130 200 1196 212)(font "Arial" ))
-	(pt 1120 216)
-	(pt 1200 216)
-)
-(connector
 	(pt 1080 416)
 	(pt 1080 400)
 	(bus)
@@ -954,11 +929,6 @@ applicable agreement for further details.
 	(pt 968 416)
 	(pt 1080 416)
 	(bus)
-)
-(connector
-	(text "message_out" (rect 40 256 106 268)(font "Arial" ))
-	(pt 40 272)
-	(pt 120 272)
 )
 (connector
 	(text "c_M" (rect 50 192 70 204)(font "Arial" ))
@@ -996,19 +966,9 @@ applicable agreement for further details.
 	(pt 328 464)
 )
 (connector
-	(text "yield" (rect 298 480 321 492)(font "Arial" ))
-	(pt 288 496)
-	(pt 328 496)
-)
-(connector
 	(text "c" (rect 298 320 303 332)(font "Arial" ))
 	(pt 288 336)
 	(pt 376 336)
-)
-(connector
-	(text "nc" (rect 434 320 445 332)(font "Arial" ))
-	(pt 424 336)
-	(pt 464 336)
 )
 (connector
 	(text "data[1]" (rect 610 32 644 44)(font "Arial" ))
@@ -1110,11 +1070,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(text "nc" (rect 522 504 533 516)(font "Arial" ))
-	(pt 552 520)
-	(pt 512 520)
-)
-(connector
 	(text "d_s[2]" (rect 522 520 552 532)(font "Arial" ))
 	(pt 552 536)
 	(pt 512 536)
@@ -1182,4 +1137,144 @@ applicable agreement for further details.
 	(pt 512 568)
 	(pt 640 568)
 	(bus)
+)
+(connector
+	(text "serial_code" (rect 40 256 95 268)(font "Arial" ))
+	(pt 40 272)
+	(pt 120 272)
+)
+(connector
+	(text "serial_code" (rect 1130 200 1185 212)(font "Arial" ))
+	(pt 1120 216)
+	(pt 1200 216)
+)
+(connector
+	(text "not_c" (rect 434 320 461 332)(font "Arial" ))
+	(pt 424 336)
+	(pt 464 336)
+)
+(connector
+	(text "not_c" (rect 522 504 549 516)(font "Arial" ))
+	(pt 552 520)
+	(pt 512 520)
+)
+(connector
+	(text "not_c" (rect 930 656 957 668)(font "Arial" ))
+	(pt 1040 672)
+	(pt 920 672)
+)
+(connector
+	(text "not_c" (rect 970 496 997 508)(font "Arial" ))
+	(pt 1040 512)
+	(pt 960 512)
+)
+(connector
+	(text "data[0]" (rect 970 360 1004 372)(font "Arial" ))
+	(pt 1040 376)
+	(pt 960 376)
+)
+(connector
+	(text "data[1]" (rect 970 344 1004 356)(font "Arial" ))
+	(pt 1040 360)
+	(pt 960 360)
+)
+(connector
+	(text "data[2]" (rect 970 328 1004 340)(font "Arial" ))
+	(pt 1040 344)
+	(pt 960 344)
+)
+(connector
+	(text "data[3]" (rect 970 312 1004 324)(font "Arial" ))
+	(pt 1040 328)
+	(pt 960 328)
+)
+(connector
+	(text "data[4]" (rect 970 296 1004 308)(font "Arial" ))
+	(pt 1040 312)
+	(pt 960 312)
+)
+(connector
+	(text "data[5]" (rect 970 280 1004 292)(font "Arial" ))
+	(pt 1040 296)
+	(pt 960 296)
+)
+(connector
+	(text "data[6]" (rect 970 264 1004 276)(font "Arial" ))
+	(pt 1040 280)
+	(pt 960 280)
+)
+(connector
+	(text "data[7]" (rect 970 248 1004 260)(font "Arial" ))
+	(pt 1040 264)
+	(pt 960 264)
+)
+(connector
+	(text "data[8]" (rect 970 232 1004 244)(font "Arial" ))
+	(pt 1040 248)
+	(pt 960 248)
+)
+(connector
+	(text "data[9]" (rect 970 216 1004 228)(font "Arial" ))
+	(pt 1040 232)
+	(pt 960 232)
+)
+(connector
+	(text "data[10]" (rect 970 200 1010 212)(font "Arial" ))
+	(pt 1040 216)
+	(pt 960 216)
+)
+(connector
+	(text "data[11]" (rect 970 184 1010 196)(font "Arial" ))
+	(pt 1040 200)
+	(pt 960 200)
+)
+(connector
+	(text "data[12]" (rect 970 168 1010 180)(font "Arial" ))
+	(pt 1040 184)
+	(pt 960 184)
+)
+(connector
+	(text "data[13]" (rect 970 152 1010 164)(font "Arial" ))
+	(pt 1040 168)
+	(pt 960 168)
+)
+(connector
+	(text "data[14]" (rect 970 136 1010 148)(font "Arial" ))
+	(pt 1040 152)
+	(pt 960 152)
+)
+(connector
+	(text "data[15]" (rect 970 120 1010 132)(font "Arial" ))
+	(pt 1040 136)
+	(pt 960 136)
+)
+(connector
+	(text "data[16]" (rect 970 104 1010 116)(font "Arial" ))
+	(pt 1040 120)
+	(pt 960 120)
+)
+(connector
+	(text "data[17]" (rect 970 88 1010 100)(font "Arial" ))
+	(pt 960 104)
+	(pt 1040 104)
+)
+(connector
+	(text "data[18]" (rect 970 72 1010 84)(font "Arial" ))
+	(pt 960 88)
+	(pt 1040 88)
+)
+(connector
+	(text "speed" (rect 298 480 327 492)(font "Arial" ))
+	(pt 288 496)
+	(pt 328 496)
+)
+(connector
+	(text "speed" (rect 970 448 999 460)(font "Arial" ))
+	(pt 1040 464)
+	(pt 960 464)
+)
+(connector
+	(text "speed" (rect 970 512 999 524)(font "Arial" ))
+	(pt 1040 528)
+	(pt 960 528)
 )
