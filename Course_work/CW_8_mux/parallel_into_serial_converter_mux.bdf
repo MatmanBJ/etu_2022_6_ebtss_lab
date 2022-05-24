@@ -1031,3 +1031,68 @@ applicable agreement for further details.
 	(pt 920 640)
 	(pt 1120 640)
 )
+(connector
+	(text "data[12]" (rect 1010 72 1050 84)(font "Arial" ))
+	(pt 1040 88)
+	(pt 1000 88)
+)
+(connector
+	(text "data[11]" (rect 1010 88 1050 100)(font "Arial" ))
+	(pt 1040 104)
+	(pt 1000 104)
+)
+(connector
+	(text "data[10]" (rect 1010 104 1050 116)(font "Arial" ))
+	(pt 1040 120)
+	(pt 1000 120)
+)
+(connector
+	(text "data[9]" (rect 1010 120 1044 132)(font "Arial" ))
+	(pt 1040 136)
+	(pt 1000 136)
+)
+(connector
+	(text "data[8]" (rect 1010 136 1044 148)(font "Arial" ))
+	(pt 1040 152)
+	(pt 1000 152)
+)
+(connector
+	(text "data[7]" (rect 1010 152 1044 164)(font "Arial" ))
+	(pt 1040 168)
+	(pt 1000 168)
+)
+(connector
+	(text "data[6]" (rect 1010 168 1044 180)(font "Arial" ))
+	(pt 1040 184)
+	(pt 1000 184)
+)
+(connector
+	(text "data[5]" (rect 1010 184 1044 196)(font "Arial" ))
+	(pt 1040 200)
+	(pt 1000 200)
+)
+(connector
+	(text "data[4]" (rect 1010 200 1044 212)(font "Arial" ))
+	(pt 1040 216)
+	(pt 1000 216)
+)
+(connector
+	(text "data[3]" (rect 1010 216 1044 228)(font "Arial" ))
+	(pt 1040 232)
+	(pt 1000 232)
+)
+(connector
+	(text "data[2]" (rect 1010 232 1044 244)(font "Arial" ))
+	(pt 1040 248)
+	(pt 1000 248)
+)
+(connector
+	(text "data[1]" (rect 1010 248 1044 260)(font "Arial" ))
+	(pt 1040 264)
+	(pt 1000 264)
+)
+(connector
+	(text "data[0]" (rect 1010 264 1044 276)(font "Arial" ))
+	(pt 1040 280)
+	(pt 1000 280)
+)
