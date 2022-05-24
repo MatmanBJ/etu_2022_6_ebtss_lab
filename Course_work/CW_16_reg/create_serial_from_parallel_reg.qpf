@@ -18,13 +18,13 @@
 #
 # Quartus II 64-Bit
 # Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-# Date created = 00:30:06  May 24, 2022
+# Date created = 22:18:53  May 24, 2022
 #
 # -------------------------------------------------------------------------- #
 
 QUARTUS_VERSION = "13.0"
-DATE = "00:30:06  May 24, 2022"
+DATE = "22:18:53  May 24, 2022"
 
 # Revisions
 
-PROJECT_REVISION = "parallel_into_serial_converter_mux"
+PROJECT_REVISION = "create_serial_from_parallel_reg"
