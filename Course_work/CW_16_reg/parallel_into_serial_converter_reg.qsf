@@ -76,22 +76,22 @@ set_global_assignment -name BSF_FILE lpm_shiftreg_3.bsf
 set_global_assignment -name SOURCE_FILE lpm_shiftreg_3.cmp
 set_global_assignment -name QIP_FILE lpm_shiftreg_3.qip
 set_global_assignment -name VHDL_FILE lpm_shiftreg_3.vhd
-set_global_assignment -name BDF_FILE make_ready_scheme_reg.bdf
 set_global_assignment -name BDF_FILE parallel_into_serial_converter_reg.bdf
 set_global_assignment -name SOURCE_FILE parallel_into_serial_converter_reg.qpf
 set_global_assignment -name SOURCE_FILE parallel_into_serial_converter_reg.qsf
-set_global_assignment -name BDF_FILE parity_bit_make.bdf
-set_global_assignment -name BDF_FILE tact_consume_scheme.bdf
-set_global_assignment -name BSF_FILE tact_consume_scheme.bsf
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name QIP_FILE lpm_counter_2.qip
 set_global_assignment -name QIP_FILE lpm_decode_2.qip
-set_global_assignment -name BSF_FILE make_ready_scheme_reg.bsf
-set_global_assignment -name BSF_FILE parity_bit_make.bsf
 set_global_assignment -name QIP_FILE lpm_shiftreg_4.qip
 set_global_assignment -name QIP_FILE lpm_shiftreg_5.qip
 set_global_assignment -name QIP_FILE lpm_shiftreg_6.qip
 set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform_4.vwf
+set_global_assignment -name BDF_FILE add_parity_bit_n17.bdf
+set_global_assignment -name BSF_FILE add_parity_bit_n17.bsf
+set_global_assignment -name BDF_FILE create_output_tact.bdf
+set_global_assignment -name BSF_FILE create_output_tact.bsf
+set_global_assignment -name BDF_FILE create_ready_signal_reg.bdf
+set_global_assignment -name BSF_FILE create_ready_signal_reg.bsf
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

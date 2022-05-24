@@ -21,7 +21,7 @@ applicable agreement for further details.
 (header "symbol" (version "1.2"))
 (symbol
 	(rect 16 16 160 336)
-	(text "parity_bit_make" (rect 5 0 93 14)(font "Arial" (font_size 8)))
+	(text "add_parity_bit_n17" (rect 5 0 113 14)(font "Arial" (font_size 8)))
 	(text "inst" (rect 8 304 25 316)(font "Arial" ))
 	(port
 		(pt 0 32)
