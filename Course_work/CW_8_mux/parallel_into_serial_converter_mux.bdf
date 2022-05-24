@@ -1032,16 +1032,6 @@ applicable agreement for further details.
 	(pt 1120 640)
 )
 (connector
-	(text "data[12]" (rect 1010 72 1050 84)(font "Arial" ))
-	(pt 1040 88)
-	(pt 1000 88)
-)
-(connector
-	(text "data[11]" (rect 1010 88 1050 100)(font "Arial" ))
-	(pt 1040 104)
-	(pt 1000 104)
-)
-(connector
 	(text "data[10]" (rect 1010 104 1050 116)(font "Arial" ))
 	(pt 1040 120)
 	(pt 1000 120)
